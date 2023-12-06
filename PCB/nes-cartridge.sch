@@ -298,19 +298,14 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="1.5" y1="31.5" x2="1.5" y2="37.5" width="0.01" layer="20"/>
 <wire x1="1.5" y1="37.5" x2="5" y2="37.5" width="0.01" layer="20"/>
 <wire x1="5" y1="37.5" x2="5" y2="40" width="0.01" layer="20"/>
-<wire x1="5" y1="40" x2="97" y2="40" width="0.01" layer="20"/>
-<wire x1="97" y1="40" x2="98.5" y2="40" width="0.01" layer="20"/>
+<wire x1="5" y1="40" x2="98.5" y2="40" width="0.01" layer="20"/>
 <wire x1="98.5" y1="40" x2="98.5" y2="34" width="0.01" layer="20"/>
 <wire x1="98.5" y1="34" x2="100" y2="34" width="0.01" layer="20"/>
 <wire x1="100" y1="34" x2="100" y2="14.5" width="0.01" layer="20"/>
 <wire x1="100" y1="14.5" x2="96.75" y2="14.5" width="0.01" layer="20"/>
 <wire x1="96.75" y1="14.5" x2="96.75" y2="0" width="0.01" layer="20"/>
 <wire x1="96.75" y1="0" x2="3.25" y2="0" width="0.01" layer="20"/>
-<wire x1="5" y1="40" x2="97" y2="40" width="0.01" layer="51" style="shortdash"/>
-<text x="49" y="116" size="2.54" layer="51" align="center">NES Cartridge Maximum Size</text>
-<text x="49" y="121" size="1.27" layer="51" align="center">Licensed under the Creative Commons 
-Attribution 4.0 International (CC BY 4.0) License</text>
-<text x="49" y="41" size="1.27" layer="51" align="center">NROM Cartridge Size below this line.</text>
+<text x="51" y="39.19" size="1.016" layer="51" align="center">NES Cartridge Minimum Size</text>
 <text x="94" y="15" size="3" layer="21" ratio="15" align="center">1</text>
 <text x="83.75" y="14.5" size="1.5" layer="21" align="center">5</text>
 <text x="71.25" y="14.5" size="1.5" layer="21" align="center">10</text>
@@ -406,13 +401,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <wire x1="1.5" y1="31.5" x2="1.5" y2="37.5" width="0.01" layer="51"/>
 <wire x1="1.5" y1="37.5" x2="5" y2="37.5" width="0.01" layer="51"/>
 <wire x1="5" y1="37.5" x2="5" y2="40" width="0.01" layer="51"/>
-<wire x1="5" y1="40" x2="0" y2="40" width="0.01" layer="51"/>
-<wire x1="0" y1="40" x2="0" y2="113" width="0.01" layer="51"/>
-<wire x1="0" y1="113" x2="100" y2="113" width="0.01" layer="51"/>
-<wire x1="100" y1="113" x2="100" y2="42.5" width="0.01" layer="51"/>
-<wire x1="100" y1="42.5" x2="97" y2="42.5" width="0.01" layer="51"/>
-<wire x1="97" y1="42.5" x2="97" y2="40" width="0.01" layer="51"/>
-<wire x1="97" y1="40" x2="98.5" y2="40" width="0.01" layer="51"/>
+<wire x1="5" y1="40" x2="98.5" y2="40" width="0.01" layer="51"/>
 <wire x1="98.5" y1="40" x2="98.5" y2="34" width="0.01" layer="51"/>
 <wire x1="98.5" y1="34" x2="100" y2="34" width="0.01" layer="51"/>
 <wire x1="100" y1="34" x2="100" y2="14.5" width="0.01" layer="51"/>
@@ -1963,7 +1952,10 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L" device=""/>
+<part name="FRAME1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L" device="">
+<attribute name="DOCUMENT_NUMBER" value="Mnemosyne-1"/>
+<attribute name="REV" value="A"/>
+</part>
 <part name="SUPPLY1" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
@@ -1972,7 +1964,6 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <part name="SUPPLY6" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
-<part name="SUPPLY10" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY11" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="PCB1" library="game-cartridge" library_urn="urn:adsk.eagle:library:42577318" deviceset="NES-CARTRIDGE" device="-MAX" package3d_urn="urn:adsk.eagle:package:42577321/1" value="NES Max Size"/>
 <part name="R1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
@@ -1982,29 +1973,30 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY14" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY15" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="R2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
-<part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="V_SCROLL" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="SOLDER_JUMPER" device="-80MIL-RND" package3d_urn="urn:adsk.eagle:package:7191563/5"/>
 <part name="H_SCROLL" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="SOLDER_JUMPER" device="-80MIL-RND" package3d_urn="urn:adsk.eagle:package:7191563/5"/>
-<part name="PA142EDGE" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="SOLDER_JUMPER" device="-80MIL-RND" package3d_urn="urn:adsk.eagle:package:7191563/5"/>
-<part name="PA132EDGE" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="SOLDER_JUMPER" device="-80MIL-RND" package3d_urn="urn:adsk.eagle:package:7191563/5"/>
 <part name="R4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="SUPPLY16" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
-<part name="PRG!W!_2EDGE" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="SOLDER_JUMPER" device="-80MIL-RND" package3d_urn="urn:adsk.eagle:package:7191563/5"/>
+<part name="PRG-WREN" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="SOLDER_JUMPER" device="-80MIL-RND" package3d_urn="urn:adsk.eagle:package:7191563/5"/>
 <part name="U1" library="atmel-atmega" library_urn="urn:adsk.eagle:library:4151403" deviceset="ATTINY13A" device="-SO8" package3d_urn="urn:adsk.eagle:package:20148077/2" value="ATtiny13A"/>
 <part name="SUPPLY8" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY17" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="R5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193040/5" value="10K"/>
 <part name="SUPPLY18" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="CIC_WR_EN" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="SOLDER_JUMPER" device="-80MIL-RND" package3d_urn="urn:adsk.eagle:package:7191563/5"/>
-<part name="U2" library="logic" library_urn="urn:adsk.eagle:library:8032508" deviceset="FLASH_512KX8" device="-512K-TSOP" value="FLASH 512K x 8"/>
-<part name="U3" library="logic" library_urn="urn:adsk.eagle:library:8032508" deviceset="FLASH_512KX8" device="-512K-TSOP" value="FLASH 512K x 8"/>
+<part name="CHR-MEM" library="logic" library_urn="urn:adsk.eagle:library:8032508" deviceset="FLASH_512KX8" device="-512K-TSOP" value="FLASH 512K x 8"/>
+<part name="PRG-MEM" library="logic" library_urn="urn:adsk.eagle:library:8032508" deviceset="FLASH_512KX8" device="-512K-TSOP" value="FLASH 512K x 8"/>
+<part name="SUPPLY10" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
+<part name="SUPPLY19" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="104.14" y="17.78" size="3.81" layer="97">Special thanks to ViGrey:  https://vigrey.com/nes</text>
+<text x="104.14" y="17.78" size="3.81" layer="97">Special thanks to 
+       ViGrey:  https://vigrey.com/nes
+       NES DEV Wiki  https://www.nesdev.org/wiki/Nesdev_Wiki</text>
 <text x="69.342" y="45.72" size="1.27" layer="97" align="center">X</text>
+<text x="137.16" y="154.94" size="1.778" layer="91">CHR WREN?</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -2012,6 +2004,8 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="91.44" y="1.27" size="2.54" layer="94" font="vector" ratio="15"/>
+<attribute name="DOCUMENT_NUMBER" x="160.02" y="6.096" size="3.81" layer="94" ratio="15"/>
+<attribute name="REV" x="147.32" y="0" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="78.74" y="78.74" smashed="yes">
 <attribute name="VALUE" x="78.74" y="76.073" size="0.6096" layer="96" font="vector" align="center"/>
@@ -2036,9 +2030,6 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="144.78" y="167.64" smashed="yes">
 <attribute name="VALUE" x="144.78" y="171.577" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY10" gate="G$1" x="127" y="154.94" smashed="yes">
-<attribute name="VALUE" x="126.365" y="160.274" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="147.32" y="93.98" smashed="yes">
 <attribute name="VALUE" x="147.32" y="91.313" size="0.6096" layer="96" font="vector" align="center"/>
@@ -2071,25 +2062,11 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <instance part="SUPPLY15" gate="GND" x="195.58" y="88.9" smashed="yes">
 <attribute name="VALUE" x="195.58" y="86.233" size="0.6096" layer="96" font="vector" align="center"/>
 </instance>
-<instance part="R2" gate="G$1" x="132.08" y="149.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="130.6068" y="151.13" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="132.08" y="151.13" size="0.9652" layer="96" font="vector" rot="R90" align="center"/>
-</instance>
-<instance part="R3" gate="G$1" x="127" y="149.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="125.5268" y="151.384" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="127" y="151.13" size="0.9652" layer="96" font="vector" rot="R90" align="center"/>
-</instance>
 <instance part="V_SCROLL" gate="G$1" x="137.16" y="137.16" smashed="yes">
 <attribute name="NAME" x="137.16" y="138.176" size="1.143" layer="95" ratio="15" align="bottom-center"/>
 </instance>
 <instance part="H_SCROLL" gate="G$1" x="137.16" y="134.62" smashed="yes">
 <attribute name="NAME" x="137.16" y="135.636" size="1.143" layer="95" ratio="15" align="bottom-center"/>
-</instance>
-<instance part="PA142EDGE" gate="G$1" x="119.38" y="144.78" smashed="yes">
-<attribute name="NAME" x="119.38" y="145.796" size="1.27" layer="95" ratio="15" align="bottom-center"/>
-</instance>
-<instance part="PA132EDGE" gate="G$1" x="119.38" y="142.24" smashed="yes">
-<attribute name="NAME" x="119.38" y="143.256" size="1.27" layer="95" ratio="15" align="bottom-center"/>
 </instance>
 <instance part="R4" gate="G$1" x="142.24" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="141.0208" y="92.71" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="bottom-center"/>
@@ -2098,7 +2075,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <instance part="SUPPLY16" gate="G$1" x="142.24" y="96.52" smashed="yes">
 <attribute name="VALUE" x="142.24" y="100.457" size="1.27" layer="96" font="vector" ratio="15" align="bottom-center"/>
 </instance>
-<instance part="PRG!W!_2EDGE" gate="G$1" x="134.62" y="88.9" smashed="yes">
+<instance part="PRG-WREN" gate="G$1" x="134.62" y="88.9" smashed="yes">
 <attribute name="NAME" x="134.62" y="89.916" size="1.016" layer="95" ratio="15" align="bottom-center"/>
 </instance>
 <instance part="U1" gate="G$1" x="55.88" y="43.18" smashed="yes">
@@ -2121,13 +2098,19 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <instance part="CIC_WR_EN" gate="G$1" x="78.74" y="48.26" smashed="yes">
 <attribute name="NAME" x="78.74" y="49.276" size="1.016" layer="95" ratio="15" align="bottom-center"/>
 </instance>
-<instance part="U2" gate="G$1" x="175.26" y="157.48" smashed="yes">
+<instance part="CHR-MEM" gate="G$1" x="175.26" y="157.48" smashed="yes">
 <attribute name="VALUE" x="175.26" y="168.402" size="1.016" layer="96" align="center"/>
 <attribute name="NAME" x="175.006" y="171.958" size="1.778" layer="95" ratio="15" align="center"/>
 </instance>
-<instance part="U3" gate="G$1" x="175.26" y="86.36" smashed="yes">
+<instance part="PRG-MEM" gate="G$1" x="175.26" y="86.36" smashed="yes">
 <attribute name="VALUE" x="175.26" y="97.282" size="1.016" layer="96" align="center"/>
 <attribute name="NAME" x="175.006" y="100.838" size="1.778" layer="95" ratio="15" align="center"/>
+</instance>
+<instance part="SUPPLY10" gate="GND" x="160.02" y="147.32" smashed="yes">
+<attribute name="VALUE" x="160.02" y="144.653" size="0.6096" layer="96" font="vector" align="center"/>
+</instance>
+<instance part="SUPPLY19" gate="GND" x="157.48" y="81.28" smashed="yes">
+<attribute name="VALUE" x="157.48" y="78.613" size="0.6096" layer="96" font="vector" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -2142,12 +2125,12 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 <wire x1="185.42" y1="160.02" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="CHR-MEM" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="187.96" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="PRG-MEM" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="GND@1"/>
@@ -2166,6 +2149,48 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="CHR-MEM" gate="G$1" pin="A13"/>
+<wire x1="165.1" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="142.24" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A18"/>
+<wire x1="162.56" y1="144.78" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="147.32" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="149.86" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="152.4" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="154.94" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A17"/>
+<wire x1="165.1" y1="152.4" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
+<junction x="162.56" y="152.4"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A16"/>
+<wire x1="165.1" y1="149.86" x2="162.56" y2="149.86" width="0.1524" layer="91"/>
+<junction x="162.56" y="149.86"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A15"/>
+<wire x1="165.1" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
+<junction x="162.56" y="147.32"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A14"/>
+<wire x1="165.1" y1="144.78" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
+<junction x="162.56" y="144.78"/>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<wire x1="162.56" y1="147.32" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PRG-MEM" gate="G$1" pin="A15"/>
+<wire x1="165.1" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="76.2" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A18"/>
+<wire x1="162.56" y1="78.74" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="81.28" x2="162.56" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A17"/>
+<wire x1="165.1" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<junction x="162.56" y="81.28"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A16"/>
+<wire x1="165.1" y1="78.74" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
+<junction x="162.56" y="78.74"/>
+<pinref part="SUPPLY19" gate="GND" pin="GND"/>
+<wire x1="162.56" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CPU_A11" class="0">
 <segment>
@@ -2174,9 +2199,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A11"/>
 </segment>
 <segment>
-<label x="165.1" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A11"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A11"/>
 </segment>
 </net>
 <net name="CPU_A10" class="0">
@@ -2186,9 +2211,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A10"/>
 </segment>
 <segment>
-<label x="165.1" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="63.5" x2="162.56" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A10"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A10"/>
 </segment>
 </net>
 <net name="CPU_A9" class="0">
@@ -2198,9 +2223,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A9"/>
 </segment>
 <segment>
-<label x="165.1" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="60.96" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A9"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A9"/>
 </segment>
 </net>
 <net name="CPU_A8" class="0">
@@ -2210,9 +2235,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A8"/>
 </segment>
 <segment>
-<label x="165.1" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A8"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A8"/>
 </segment>
 </net>
 <net name="CPU_A7" class="0">
@@ -2222,9 +2247,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A7"/>
 </segment>
 <segment>
-<label x="165.1" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A7"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A7"/>
 </segment>
 </net>
 <net name="CPU_A6" class="0">
@@ -2234,9 +2259,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A6"/>
 </segment>
 <segment>
-<label x="165.1" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="53.34" x2="162.56" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A6"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A6"/>
 </segment>
 </net>
 <net name="CPU_A5" class="0">
@@ -2246,9 +2271,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A5"/>
 </segment>
 <segment>
-<label x="165.1" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="50.8" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A5"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A5"/>
 </segment>
 </net>
 <net name="CPU_A4" class="0">
@@ -2258,9 +2283,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A4"/>
 </segment>
 <segment>
-<label x="165.1" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="48.26" x2="162.56" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A4"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A4"/>
 </segment>
 </net>
 <net name="CPU_A3" class="0">
@@ -2270,9 +2295,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A3"/>
 </segment>
 <segment>
-<label x="165.1" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="45.72" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A3"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="CPU_A2" class="0">
@@ -2282,9 +2307,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A2"/>
 </segment>
 <segment>
-<label x="165.1" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A2"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="CPU_A1" class="0">
@@ -2294,9 +2319,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A1"/>
 </segment>
 <segment>
-<label x="165.1" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="40.64" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A1"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="CPU_A0" class="0">
@@ -2306,9 +2331,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A0"/>
 </segment>
 <segment>
-<label x="165.1" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="38.1" x2="162.56" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A0"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A0"/>
 </segment>
 </net>
 <net name="CPU_A12" class="0">
@@ -2318,9 +2343,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A12"/>
 </segment>
 <segment>
-<label x="165.1" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A12"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A12"/>
 </segment>
 </net>
 <net name="CPU_A13" class="0">
@@ -2330,9 +2355,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A13"/>
 </segment>
 <segment>
-<label x="165.1" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="71.12" x2="162.56" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A13"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A13"/>
 </segment>
 </net>
 <net name="CPU_A14" class="0">
@@ -2342,9 +2367,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_A14"/>
 </segment>
 <segment>
-<label x="165.1" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="A14"/>
+<pinref part="PRG-MEM" gate="G$1" pin="A14"/>
 </segment>
 </net>
 <net name="CPU_D7" class="0">
@@ -2354,9 +2379,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D7"/>
 </segment>
 <segment>
-<label x="185.42" y="66.04" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="66.04" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D7"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D7"/>
 </segment>
 </net>
 <net name="CPU_D6" class="0">
@@ -2366,9 +2391,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D6"/>
 </segment>
 <segment>
-<label x="185.42" y="63.5" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="63.5" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="63.5" x2="187.96" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D6"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D6"/>
 </segment>
 </net>
 <net name="CPU_D5" class="0">
@@ -2378,9 +2403,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D5"/>
 </segment>
 <segment>
-<label x="185.42" y="60.96" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="60.96" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="60.96" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D5"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D5"/>
 </segment>
 </net>
 <net name="CPU_D4" class="0">
@@ -2390,9 +2415,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D4"/>
 </segment>
 <segment>
-<label x="185.42" y="58.42" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="58.42" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D4"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D4"/>
 </segment>
 </net>
 <net name="CPU_D3" class="0">
@@ -2402,9 +2427,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D3"/>
 </segment>
 <segment>
-<label x="185.42" y="55.88" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="55.88" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D3"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D3"/>
 </segment>
 </net>
 <net name="CPU_D2" class="0">
@@ -2414,9 +2439,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D2"/>
 </segment>
 <segment>
-<label x="185.42" y="53.34" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="53.34" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="53.34" x2="187.96" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D2"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="CPU_D1" class="0">
@@ -2426,9 +2451,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D1"/>
 </segment>
 <segment>
-<label x="185.42" y="50.8" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="50.8" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D1"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D1"/>
 </segment>
 </net>
 <net name="CPU_D0" class="0">
@@ -2438,9 +2463,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="CPU_D0"/>
 </segment>
 <segment>
-<label x="185.42" y="48.26" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="48.26" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="48.26" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="D0"/>
+<pinref part="PRG-MEM" gate="G$1" pin="D0"/>
 </segment>
 </net>
 <net name="CIC_CLK" class="0">
@@ -2474,9 +2499,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D4"/>
 </segment>
 <segment>
-<label x="185.42" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="129.54" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="129.54" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D4"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D4"/>
 </segment>
 </net>
 <net name="PPU_D5" class="0">
@@ -2486,9 +2511,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D5"/>
 </segment>
 <segment>
-<label x="185.42" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="132.08" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="132.08" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D5"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D5"/>
 </segment>
 </net>
 <net name="PPU_D6" class="0">
@@ -2498,9 +2523,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D6"/>
 </segment>
 <segment>
-<label x="185.42" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="134.62" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D6"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D6"/>
 </segment>
 </net>
 <net name="PPU_D7" class="0">
@@ -2510,9 +2535,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D7"/>
 </segment>
 <segment>
-<label x="185.42" y="137.16" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="137.16" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="137.16" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D7"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D7"/>
 </segment>
 </net>
 <net name="PPU_!CS" class="0">
@@ -2524,7 +2549,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <segment>
 <wire x1="165.1" y1="165.1" x2="157.48" y2="165.1" width="0.1524" layer="91"/>
 <label x="157.48" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U2" gate="G$1" pin="!CE"/>
+<pinref part="CHR-MEM" gate="G$1" pin="!CE"/>
 </segment>
 </net>
 <net name="PPU_A12" class="0">
@@ -2534,16 +2559,16 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A12"/>
 </segment>
 <segment>
-<label x="165.1" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="139.7" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A12"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A12"/>
 </segment>
 </net>
 <net name="PPU_A11" class="0">
 <segment>
-<label x="165.1" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A11"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A11"/>
 </segment>
 <segment>
 <label x="20.32" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -2558,9 +2583,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 </net>
 <net name="PPU_A10" class="0">
 <segment>
-<label x="165.1" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A10"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A10"/>
 </segment>
 <segment>
 <label x="20.32" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -2580,9 +2605,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A9"/>
 </segment>
 <segment>
-<label x="165.1" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A9"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A9"/>
 </segment>
 </net>
 <net name="PPU_A8" class="0">
@@ -2592,9 +2617,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A8"/>
 </segment>
 <segment>
-<label x="165.1" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A8"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A8"/>
 </segment>
 </net>
 <net name="PPU_A7" class="0">
@@ -2604,9 +2629,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A7"/>
 </segment>
 <segment>
-<label x="165.1" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A7"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A7"/>
 </segment>
 </net>
 <net name="CIC_TOMB" class="0">
@@ -2640,9 +2665,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D3"/>
 </segment>
 <segment>
-<label x="185.42" y="127" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="127" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D3"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D3"/>
 </segment>
 </net>
 <net name="PPU_D2" class="0">
@@ -2652,9 +2677,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D2"/>
 </segment>
 <segment>
-<label x="185.42" y="124.46" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="124.46" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D2"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="PPU_D1" class="0">
@@ -2664,9 +2689,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D1"/>
 </segment>
 <segment>
-<label x="185.42" y="121.92" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="121.92" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D1"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D1"/>
 </segment>
 </net>
 <net name="PPU_D0" class="0">
@@ -2676,9 +2701,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_D0"/>
 </segment>
 <segment>
-<label x="185.42" y="119.38" size="1.27" layer="95" xref="yes"/>
+<label x="187.96" y="119.38" size="1.27" layer="95" xref="yes"/>
 <wire x1="185.42" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="D0"/>
+<pinref part="CHR-MEM" gate="G$1" pin="D0"/>
 </segment>
 </net>
 <net name="PPU_A0" class="0">
@@ -2688,9 +2713,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A0"/>
 </segment>
 <segment>
-<label x="165.1" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A0"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A0"/>
 </segment>
 </net>
 <net name="PPU_A1" class="0">
@@ -2700,9 +2725,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A1"/>
 </segment>
 <segment>
-<label x="165.1" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A1"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="PPU_A2" class="0">
@@ -2712,9 +2737,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A2"/>
 </segment>
 <segment>
-<label x="165.1" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="114.3" x2="162.56" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A2"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="PPU_A3" class="0">
@@ -2724,9 +2749,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A3"/>
 </segment>
 <segment>
-<label x="165.1" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A3"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A3"/>
 </segment>
 </net>
 <net name="PPU_A4" class="0">
@@ -2736,9 +2761,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A4"/>
 </segment>
 <segment>
-<label x="165.1" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A4"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A4"/>
 </segment>
 </net>
 <net name="PPU_A5" class="0">
@@ -2748,9 +2773,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A5"/>
 </segment>
 <segment>
-<label x="165.1" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="121.92" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A5"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A5"/>
 </segment>
 </net>
 <net name="CIRAM_A10" class="0">
@@ -2777,21 +2802,21 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <pinref part="PCB1" gate="G$1" pin="PPU_A6"/>
 </segment>
 <segment>
-<label x="165.1" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="165.1" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="A6"/>
+<pinref part="CHR-MEM" gate="G$1" pin="A6"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
 <wire x1="185.42" y1="165.1" x2="187.96" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="VCC"/>
+<pinref part="CHR-MEM" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 <wire x1="185.42" y1="93.98" x2="187.96" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="VCC"/>
+<pinref part="PRG-MEM" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="PCB1" gate="G$1" pin="VCC"/>
@@ -2809,13 +2834,6 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
-<junction x="127" y="154.94"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -2843,7 +2861,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <segment>
 <wire x1="165.1" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
 <label x="157.48" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U2" gate="G$1" pin="!OE"/>
+<pinref part="CHR-MEM" gate="G$1" pin="!OE"/>
 </segment>
 <segment>
 <label x="78.74" y="129.54" size="1.27" layer="95" xref="yes"/>
@@ -2863,55 +2881,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <wire x1="144.78" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
 <junction x="144.78" y="160.02"/>
 <label x="142.24" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U2" gate="G$1" pin="!WE"/>
-</segment>
-</net>
-<net name="PPU_A14" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="147.32" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="144.78" x2="165.1" y2="144.78" width="0.1524" layer="91"/>
-<label x="157.48" y="145.034" size="0.9144" layer="95"/>
-<pinref part="PA142EDGE" gate="G$1" pin="P$2"/>
-<wire x1="121.92" y1="144.78" x2="132.08" y2="144.78" width="0.1524" layer="91"/>
-<junction x="132.08" y="144.78"/>
-<pinref part="U2" gate="G$1" pin="A14"/>
-</segment>
-</net>
-<net name="PPU_A13" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="127" y1="147.32" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="127" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
-<label x="157.48" y="142.494" size="0.9144" layer="95"/>
-<pinref part="PA132EDGE" gate="G$1" pin="P$2"/>
-<wire x1="121.92" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
-<junction x="127" y="142.24"/>
-<pinref part="U2" gate="G$1" pin="A13"/>
-</segment>
-</net>
-<net name="PPU_A14EDGE" class="0">
-<segment>
-<pinref part="PA142EDGE" gate="G$1" pin="P$1"/>
-<wire x1="116.84" y1="144.78" x2="114.3" y2="144.78" width="0.1524" layer="91"/>
-<label x="114.3" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="PCB1" gate="G$1" pin="EXP5"/>
-<wire x1="30.48" y1="124.46" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
-<label x="20.32" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PPU_A13EDGE" class="0">
-<segment>
-<pinref part="PA132EDGE" gate="G$1" pin="P$1"/>
-<wire x1="116.84" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
-<label x="114.3" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="PCB1" gate="G$1" pin="EXP6"/>
-<wire x1="30.48" y1="121.92" x2="20.32" y2="121.92" width="0.1524" layer="91"/>
-<label x="20.32" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="CHR-MEM" gate="G$1" pin="!WE"/>
 </segment>
 </net>
 <net name="CPU_R/!W" class="0">
@@ -2930,7 +2900,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <segment>
 <wire x1="132.08" y1="88.9" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
 <label x="129.54" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="PRG!W!_2EDGE" gate="G$1" pin="P$1"/>
+<pinref part="PRG-WREN" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="ROM_!SEL" class="0">
@@ -2942,7 +2912,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <segment>
 <wire x1="165.1" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
 <label x="157.48" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U3" gate="G$1" pin="!OE"/>
+<pinref part="PRG-MEM" gate="G$1" pin="!OE"/>
 </segment>
 </net>
 <net name="PRG_!WE" class="0">
@@ -2951,9 +2921,9 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <wire x1="165.1" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
 <junction x="142.24" y="88.9"/>
 <wire x1="142.24" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="PRG!W!_2EDGE" gate="G$1" pin="P$2"/>
+<pinref part="PRG-WREN" gate="G$1" pin="P$2"/>
 <label x="144.78" y="89.154" size="1.016" layer="95"/>
-<pinref part="U3" gate="G$1" pin="!WE"/>
+<pinref part="PRG-MEM" gate="G$1" pin="!WE"/>
 </segment>
 </net>
 <net name="CIC_!RST" class="0">
@@ -2989,7 +2959,7 @@ Attribution 4.0 International (CC BY 4.0) License</text>
 <segment>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <wire x1="165.1" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="!CE"/>
+<pinref part="PRG-MEM" gate="G$1" pin="!CE"/>
 </segment>
 </net>
 </nets>
