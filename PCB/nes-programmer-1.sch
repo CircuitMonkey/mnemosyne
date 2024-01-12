@@ -233,78 +233,78 @@ LETTER landscape</description>
 <packages>
 <package name="NES-CONNECTOR-VT-THD" library_version="1" library_locally_modified="yes">
 <description>NES 72P, Edge Receptacle, Vertical, THD</description>
-<pad name="1" x="43.75" y="-1.25" drill="1" shape="square"/>
-<pad name="2" x="41.25" y="-1.25" drill="1"/>
-<pad name="3" x="38.75" y="-1.25" drill="1"/>
-<pad name="4" x="36.25" y="-1.25" drill="1"/>
-<pad name="5" x="33.75" y="-1.25" drill="1"/>
-<pad name="6" x="31.25" y="-1.25" drill="1"/>
-<pad name="7" x="28.75" y="-1.25" drill="1"/>
-<pad name="8" x="26.25" y="-1.25" drill="1"/>
-<pad name="9" x="23.75" y="-1.25" drill="1"/>
-<pad name="10" x="21.25" y="-1.25" drill="1"/>
-<pad name="11" x="18.75" y="-1.25" drill="1"/>
-<pad name="12" x="16.25" y="-1.25" drill="1"/>
-<pad name="13" x="13.75" y="-1.25" drill="1"/>
-<pad name="14" x="11.25" y="-1.25" drill="1"/>
-<pad name="15" x="8.75" y="-1.25" drill="1"/>
-<pad name="16" x="6.25" y="-1.25" drill="1"/>
-<pad name="17" x="3.75" y="-1.25" drill="1"/>
-<pad name="18" x="1.25" y="-1.25" drill="1"/>
-<pad name="19" x="-1.25" y="-1.25" drill="1"/>
-<pad name="20" x="-3.75" y="-1.25" drill="1"/>
-<pad name="21" x="-6.25" y="-1.25" drill="1"/>
-<pad name="22" x="-8.75" y="-1.25" drill="1"/>
-<pad name="23" x="-11.25" y="-1.25" drill="1"/>
-<pad name="24" x="-13.75" y="-1.25" drill="1"/>
-<pad name="25" x="-16.25" y="-1.25" drill="1"/>
-<pad name="26" x="-18.75" y="-1.25" drill="1"/>
-<pad name="27" x="-21.25" y="-1.25" drill="1"/>
-<pad name="28" x="-23.75" y="-1.25" drill="1"/>
-<pad name="29" x="-26.25" y="-1.25" drill="1"/>
-<pad name="30" x="-28.75" y="-1.25" drill="1"/>
-<pad name="31" x="-31.25" y="-1.25" drill="1"/>
-<pad name="32" x="-33.75" y="-1.25" drill="1"/>
-<pad name="33" x="-36.25" y="-1.25" drill="1"/>
-<pad name="34" x="-38.75" y="-1.25" drill="1"/>
-<pad name="35" x="-41.25" y="-1.25" drill="1"/>
-<pad name="36" x="-43.75" y="-1.25" drill="1"/>
-<pad name="37" x="43.75" y="1.25" drill="1"/>
-<pad name="38" x="41.25" y="1.25" drill="1"/>
-<pad name="39" x="38.75" y="1.25" drill="1"/>
-<pad name="40" x="36.25" y="1.25" drill="1"/>
-<pad name="41" x="33.75" y="1.25" drill="1"/>
-<pad name="42" x="31.25" y="1.25" drill="1"/>
-<pad name="43" x="28.75" y="1.25" drill="1"/>
-<pad name="44" x="26.25" y="1.25" drill="1"/>
-<pad name="45" x="23.75" y="1.25" drill="1"/>
-<pad name="46" x="21.25" y="1.25" drill="1"/>
-<pad name="47" x="18.75" y="1.25" drill="1"/>
-<pad name="48" x="16.25" y="1.25" drill="1"/>
-<pad name="49" x="13.75" y="1.25" drill="1"/>
-<pad name="50" x="11.25" y="1.25" drill="1"/>
-<pad name="51" x="8.75" y="1.25" drill="1"/>
-<pad name="52" x="6.25" y="1.25" drill="1"/>
-<pad name="53" x="3.75" y="1.25" drill="1"/>
-<pad name="54" x="1.25" y="1.25" drill="1"/>
-<pad name="55" x="-1.25" y="1.25" drill="1"/>
-<pad name="56" x="-3.75" y="1.25" drill="1"/>
-<pad name="57" x="-6.25" y="1.25" drill="1"/>
-<pad name="58" x="-8.75" y="1.25" drill="1"/>
-<pad name="59" x="-11.25" y="1.25" drill="1"/>
-<pad name="60" x="-13.75" y="1.25" drill="1"/>
-<pad name="61" x="-16.25" y="1.25" drill="1"/>
-<pad name="62" x="-18.75" y="1.25" drill="1"/>
-<pad name="63" x="-21.25" y="1.25" drill="1"/>
-<pad name="64" x="-23.75" y="1.25" drill="1"/>
-<pad name="65" x="-26.25" y="1.25" drill="1"/>
-<pad name="66" x="-28.75" y="1.25" drill="1"/>
-<pad name="67" x="-31.25" y="1.25" drill="1"/>
-<pad name="68" x="-33.75" y="1.25" drill="1"/>
-<pad name="69" x="-36.25" y="1.25" drill="1"/>
-<pad name="70" x="-38.75" y="1.25" drill="1"/>
-<pad name="71" x="-41.25" y="1.25" drill="1"/>
-<pad name="72" x="-43.75" y="1.25" drill="1"/>
+<pad name="1" x="43.75" y="-2.5" drill="1" shape="square"/>
+<pad name="2" x="41.25" y="-2.5" drill="1"/>
+<pad name="3" x="38.75" y="-2.5" drill="1"/>
+<pad name="4" x="36.25" y="-2.5" drill="1"/>
+<pad name="5" x="33.75" y="-2.5" drill="1"/>
+<pad name="6" x="31.25" y="-2.5" drill="1"/>
+<pad name="7" x="28.75" y="-2.5" drill="1"/>
+<pad name="8" x="26.25" y="-2.5" drill="1"/>
+<pad name="9" x="23.75" y="-2.5" drill="1"/>
+<pad name="10" x="21.25" y="-2.5" drill="1"/>
+<pad name="11" x="18.75" y="-2.5" drill="1"/>
+<pad name="12" x="16.25" y="-2.5" drill="1"/>
+<pad name="13" x="13.75" y="-2.5" drill="1"/>
+<pad name="14" x="11.25" y="-2.5" drill="1"/>
+<pad name="15" x="8.75" y="-2.5" drill="1"/>
+<pad name="16" x="6.25" y="-2.5" drill="1"/>
+<pad name="17" x="3.75" y="-2.5" drill="1"/>
+<pad name="18" x="1.25" y="-2.5" drill="1"/>
+<pad name="19" x="-1.25" y="-2.5" drill="1"/>
+<pad name="20" x="-3.75" y="-2.5" drill="1"/>
+<pad name="21" x="-6.25" y="-2.5" drill="1"/>
+<pad name="22" x="-8.75" y="-2.5" drill="1"/>
+<pad name="23" x="-11.25" y="-2.5" drill="1"/>
+<pad name="24" x="-13.75" y="-2.5" drill="1"/>
+<pad name="25" x="-16.25" y="-2.5" drill="1"/>
+<pad name="26" x="-18.75" y="-2.5" drill="1"/>
+<pad name="27" x="-21.25" y="-2.5" drill="1"/>
+<pad name="28" x="-23.75" y="-2.5" drill="1"/>
+<pad name="29" x="-26.25" y="-2.5" drill="1"/>
+<pad name="30" x="-28.75" y="-2.5" drill="1"/>
+<pad name="31" x="-31.25" y="-2.5" drill="1"/>
+<pad name="32" x="-33.75" y="-2.5" drill="1"/>
+<pad name="33" x="-36.25" y="-2.5" drill="1"/>
+<pad name="34" x="-38.75" y="-2.5" drill="1"/>
+<pad name="35" x="-41.25" y="-2.5" drill="1"/>
+<pad name="36" x="-43.75" y="-2.5" drill="1"/>
+<pad name="37" x="43.75" y="2.5" drill="1"/>
+<pad name="38" x="41.25" y="2.5" drill="1"/>
+<pad name="39" x="38.75" y="2.5" drill="1"/>
+<pad name="40" x="36.25" y="2.5" drill="1"/>
+<pad name="41" x="33.75" y="2.5" drill="1"/>
+<pad name="42" x="31.25" y="2.5" drill="1"/>
+<pad name="43" x="28.75" y="2.5" drill="1"/>
+<pad name="44" x="26.25" y="2.5" drill="1"/>
+<pad name="45" x="23.75" y="2.5" drill="1"/>
+<pad name="46" x="21.25" y="2.5" drill="1"/>
+<pad name="47" x="18.75" y="2.5" drill="1"/>
+<pad name="48" x="16.25" y="2.5" drill="1"/>
+<pad name="49" x="13.75" y="2.5" drill="1"/>
+<pad name="50" x="11.25" y="2.5" drill="1"/>
+<pad name="51" x="8.75" y="2.5" drill="1"/>
+<pad name="52" x="6.25" y="2.5" drill="1"/>
+<pad name="53" x="3.75" y="2.5" drill="1"/>
+<pad name="54" x="1.25" y="2.5" drill="1"/>
+<pad name="55" x="-1.25" y="2.5" drill="1"/>
+<pad name="56" x="-3.75" y="2.5" drill="1"/>
+<pad name="57" x="-6.25" y="2.5" drill="1"/>
+<pad name="58" x="-8.75" y="2.5" drill="1"/>
+<pad name="59" x="-11.25" y="2.5" drill="1"/>
+<pad name="60" x="-13.75" y="2.5" drill="1"/>
+<pad name="61" x="-16.25" y="2.5" drill="1"/>
+<pad name="62" x="-18.75" y="2.5" drill="1"/>
+<pad name="63" x="-21.25" y="2.5" drill="1"/>
+<pad name="64" x="-23.75" y="2.5" drill="1"/>
+<pad name="65" x="-26.25" y="2.5" drill="1"/>
+<pad name="66" x="-28.75" y="2.5" drill="1"/>
+<pad name="67" x="-31.25" y="2.5" drill="1"/>
+<pad name="68" x="-33.75" y="2.5" drill="1"/>
+<pad name="69" x="-36.25" y="2.5" drill="1"/>
+<pad name="70" x="-38.75" y="2.5" drill="1"/>
+<pad name="71" x="-41.25" y="2.5" drill="1"/>
+<pad name="72" x="-43.75" y="2.5" drill="1"/>
 <wire x1="-63" y1="4.5" x2="-49" y2="4.5" width="0.127" layer="51"/>
 <wire x1="-49" y1="4.5" x2="49" y2="4.5" width="0.127" layer="51"/>
 <wire x1="49" y1="4.5" x2="63" y2="4.5" width="0.127" layer="51"/>
@@ -5085,18 +5085,18 @@ Tayda: A-4813, A-4814, A-4819, A-4815, A-4818, A-4816, A-4817</description>
 <parts>
 <part name="FRAME1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L" device="">
 <attribute name="DOCUMENT_NUMBER" value="NES-Programmer-1"/>
-<attribute name="REV" value="A"/>
+<attribute name="REV" value="B"/>
 </part>
 <part name="CART" library="game-cartridge" library_urn="urn:adsk.eagle:library:42577318" deviceset="NES-RECEPTACLE" device="-VT-THD" value="NES Cart Slot, 72P, VT, THD"/>
 <part name="SUPPLY2" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY5" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY6" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY10" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5"/>
+<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/5" value="0.1uF"/>
 <part name="SUPPLY13" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY14" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="M1" library="circuit-monkey-chips" library_urn="urn:adsk.eagle:library:27174476" deviceset="0119" device="REV-A" package3d_urn="urn:adsk.eagle:package:27174494/2" value="ATmega328P Module"/>
