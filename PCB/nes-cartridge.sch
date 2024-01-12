@@ -2005,7 +2005,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="91.44" y="1.27" size="2.54" layer="94" font="vector" ratio="15"/>
 <attribute name="DOCUMENT_NUMBER" x="160.02" y="6.096" size="3.81" layer="94" ratio="15"/>
-<attribute name="REV" x="147.32" y="0" size="1.778" layer="96"/>
+<attribute name="REV" x="241.3" y="7.62" size="3.81" layer="96" align="center"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="78.74" y="78.74" smashed="yes">
 <attribute name="VALUE" x="78.74" y="76.073" size="0.6096" layer="96" font="vector" align="center"/>
